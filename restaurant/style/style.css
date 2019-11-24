@@ -1,0 +1,498 @@
+.wrap {
+    max-width: 160rem;
+    margin: 0 auto;
+}
+
+.headText {
+    font-size: 3.6rem;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+  }
+
+
+.introText {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2rem;
+}
+
+.priceText {
+    font-size: 2.1rem;
+    font-family: 'Yeseva One', cursive;
+    color: #c89f2d;
+}
+
+/* -----------------------------------Header--------------------------- */
+.header {
+    width: 100%;
+    min-height: 75rem;
+    background-image: url(/images/pictures/Bg-header.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+.header-navigation {
+    display: flex;
+    padding-top: 0.9rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    align-items: center;
+    background-image: url(/images/logo/bg_trans.png);
+}
+
+.header-navigation-logo {
+    position: relative;
+    padding-right: 8rem;
+}
+
+
+/* .header-navigation-logo__img {
+    
+} */
+
+.header-navigation-logo__text {
+    position: absolute;
+    bottom: 3.5rem;
+    color: #fff;
+    font-size: 3.6rem;
+}
+
+.header-navigation-menu-list {
+    display: flex;
+    margin-left: 3rem ;
+}
+
+.header-navigation-menu__item {
+    padding-left: 4rem;
+}
+
+.header-navigation-menu__link {
+    color: #fff;
+    font-size: 2.1rem;
+    /* font-family: 'Yeseva One', cursive; */
+}
+
+.header-navigation-social-list {
+    display: flex
+}
+
+.header-navigation-social__item {
+    font-size: 21px;
+    color: #dab33e;
+    padding-left: 1.8rem ;
+}
+
+.header-copy {
+    margin-top: 10.7rem;
+    line-height: 11.4rem;
+    /* max-width: 95.5rem; */
+}
+
+.header-copy p {
+    font-size: 9rem;
+    color: #fff;
+}
+
+.header-decoration {
+    margin-top: 3rem;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.4rem;
+}
+
+.header-button button {
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    padding: 2.2rem 5rem;
+    cursor: pointer;
+}
+
+.header-button__book {
+    margin-right: 1.5rem;
+}
+
+.header-button__book button {
+    border: 1px solid #0e0e0f;
+    background-color: rgba(16, 13, 11, 0.5);
+}
+
+.header-button__see {
+    margin-left: 1.5rem;
+}
+
+.header-button__see button {
+    border: 1px solid #e3dfc8;
+    background-color: rgba(226, 244, 206, 0.3);
+}
+
+
+/* ------------------------------------Main--------------------------------------------- */
+
+.main__decoration {
+    margin-bottom: 3rem;
+}
+
+.main-about {
+    width: 100%;
+    min-height: 71rem;
+    background-image: url(/images/logo/pattern.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-about-content {
+    padding: 4.1rem 14rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-about-content-intro {
+    width: 410px;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.main-about-content-intro__textHead {
+   
+    color: #cc9900;
+    margin-bottom: 2rem;
+}
+
+
+.main-about-content-intro__copy {
+    color: #5c5c5c;
+    margin-bottom: 5rem;
+}
+
+.main-about-content-intro__chef img {
+    padding-left: 6rem;
+}
+
+.main-about-content-image {
+    padding-left: 3rem;
+}
+
+.main-ingredients {
+    width: 100%;
+    min-height: 75.6rem;
+    background-image: url(/images/pictures/bg-section2.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-ingredients-content {
+    position: relative;
+    padding: 10rem 21.5rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.main-ingredients-content-detail {
+    width: 57rem;
+    text-align: center;
+    padding: 8.3rem 8rem;
+    background-color: rgba(16, 13, 11, 0.5);
+}
+
+.main-ingredients-content-detail__textHead {
+    color: rgb(255, 255, 255)
+}
+
+.main-ingredients-content-detail__copy {
+    color: rgb(245, 245, 245);
+    margin-bottom: 2rem;
+}
+
+.main-ingredients-content-detail__list {
+    display: flex;
+}
+
+.main-ingredients-content-detail__item {
+    padding: 1.5rem;
+}
+
+
+.main-menu {
+    min-height: 99.4rem;
+    width: 100%;
+    background-image: url(/images/pictures/pattern_section3.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-menu-content {
+    padding: 10rem 11rem;
+    display: flex;
+
+}
+
+.main-menu-content-left {
+    padding: 0 8rem;
+    width: 50%;
+}
+
+.main-menu-content-list {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.main-menu-content__header {
+    color: #cc9900;
+}
+
+
+.main-menu-content-item {
+    padding: 0 1.2rem;
+}
+
+.main-menu-content-item__namePrice {
+    position: relative;
+    padding: 2.9rem 0rem;
+    border-bottom: 1px solid #dfcf9a;
+}
+
+.item__name {
+    position: absolute;
+    left: 0;
+}
+
+.item__price {
+    position: absolute;
+    right: 0;
+}
+
+
+
+.main-menu-content-item__feature {
+    color: #5c5d5d;
+    padding : 1rem 0;
+    text-align: left;
+}
+
+
+.main-menu-content-right {
+    width: 50%;
+    padding: 0 8rem;
+}
+
+.special-item {
+    position: relative;
+    border: 1px solid #dfcf9a;
+    margin-top: 25px;
+}
+
+.special-item::before {
+    content: "Special";
+    position: absolute;
+    top: -32px;
+    right: -1px;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #d3b561;
+    color: rgb(245, 245, 245);
+    font-size: 1.4rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+
+.main-reviews {
+    min-height: 75.8rem;
+    background-image: url(/images/pictures/bg-section4.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.main-reviews-content {
+    padding: 10rem;
+}
+
+.main-reviews-content-box-container {
+    padding: 0 26rem;
+    text-align: center;
+}
+
+.main-reviews-content-box {
+    padding: 8rem 7rem;
+    background-color: rgba(16, 13, 11, 0.7);
+}
+
+.main-reviews-content-box__textHead {
+    color: #fff;
+    
+}
+
+.main-reviews-content-box__copy {
+    font-size: 2.5rem;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 3.3rem;
+    color: #dde0df;
+    
+}
+
+.main-reviews-content-box__copy p {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.main-reviews-content-box__copy span {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.main-contact {
+    min-height: 71rem;
+    background-image: url(/images/logo/pattern.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-contact-content {
+    padding: 10rem 8rem;
+    display: flex;
+
+}
+
+.main-contact-content-image {
+    width: 50%;
+    display: flex;
+}
+
+.main-contact-content-image__left {
+    padding-right: 1.75rem;
+}
+
+.main-contact-content-image__right {
+    padding-left: 1.75rem;
+}
+
+
+.main-contact-content-form {
+    width: 50%;
+    text-align: center;
+}
+
+
+.main-contact-content-form__textHead {
+    color: #cc9900;
+}
+
+.main-contact-content-form__copy {
+    padding: 0 5rem;
+}
+
+.main-contact-content-form-areaForm form {
+    padding-top: 3rem;
+}
+
+.input-boxs {
+    flex-wrap: wrap;
+    display: flex; 
+}
+
+.input-item {
+    width: 50%;
+    height: 100px;
+}
+
+.input-item label {
+    font-size: 1.4rem;
+    color: #cc9900;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.input-item input {
+    padding: 1.5rem;
+    border: 1px solid #cc9900;
+    margin-top: 1rem;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-item ::placeholder {
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button input {
+    cursor: pointer;
+    background: #cc9900;
+    padding: 1rem 3rem;
+    color: #fff;
+}
+
+/* ----------------Footer----------------------------- */
+
+.footer {
+    min-height: 35rem;
+    background-image: url(/images/pictures/background_footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+.footer-content {
+    padding: 6rem;
+    display: flex;
+    color: #fff;
+}
+
+.footer-content-column {
+    width: 33%;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+.footer__textHead {
+    font-size: 2.1rem;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 2rem;
+}
+
+.footer__decoration {
+    margin-bottom: 3rem;
+}
+
+.footer__copy {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.5rem;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.footer__item {
+    padding: 6rem 1rem;
+}
+

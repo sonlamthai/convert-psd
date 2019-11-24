@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(244, 244, 244);
+    font-size: 62.5%;
+    line-height: 13px;
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    opacity: 0.9;
+  }
+  
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
+  input, section, textarea {
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  button:hover {
+    opacity: 0.7;
+  }
+
+  button:focus {
+    outline:0;
+  }
+
+  i {
+    cursor: pointer;
+  }
+
+  i:hover {
+    opacity: 0.7;
+  }
+ 
+
+  @media only screen and (max-width: 736px) {
+    html {
+        font-size: 40%;
+    }
+}
+  
